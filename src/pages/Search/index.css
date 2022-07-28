@@ -1,0 +1,13 @@
+.container__search {
+  display: grid !important;
+  place-items: center !important;
+  height: 100vh !important;
+  width: 600px !important;
+  text-align: center !important;
+}
+
+@media screen and (max-width: 600px) {
+  .container__search {
+    width: 100% !important;
+  }
+}

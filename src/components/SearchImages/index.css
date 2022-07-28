@@ -1,0 +1,17 @@
+.images__container {
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: dense;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+.images__item {
+  width: 100%;
+}
+
+.images__item img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}

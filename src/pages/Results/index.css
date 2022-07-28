@@ -1,0 +1,5 @@
+.container__progress {
+  display: grid;
+  place-items: center;
+  height: 60vh;
+}
